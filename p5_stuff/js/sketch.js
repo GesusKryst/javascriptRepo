@@ -2,7 +2,7 @@ function createNode()
 {}
 
 
-/*
+
 // Create an array of values
 var totalValues = 100;
 var maxValue = 10;
@@ -74,4 +74,3 @@ function draw() {
         setTimeout(()=>{}, 5000);
     }
 }
-*/

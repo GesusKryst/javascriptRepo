@@ -1,0 +1,167 @@
+main {
+    text-align: center;
+}
+
+button{
+    font-family: inherit;
+}
+
+main > #create_list_button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 1em;
+    border-radius: 5em;
+    text-align: center;
+}
+
+#no_lists_message_container {
+    display: none;
+}
+
+/*.a_list Styling*/
+.a_list {
+    background-color: rgba(32, 32, 32, 0.932);
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.555);
+}
+
+.a_list > .list_controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.a_list > .list_controls {
+    flex: 1;
+    height: 100%;
+}
+
+.a_list > .list_controls > .list_title {
+    display: inline;
+    flex: 2;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.a_list > .list_controls > button {
+    border: none;
+    background-color: transparent;
+}
+
+.a_list > #add_entry {
+    background-color:  rgba(0, 0, 0, 0.227);
+    color: white;
+    font-family: inherit;
+    padding: 1em;
+    border-radius: 5em;
+    border: none;
+    font-weight: bold;
+}
+
+
+/*Entry Styling*/
+.an_entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.an_entry > * {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+}
+
+.an_entry > .entry_title {
+    flex: 2;
+    text-align: left;
+}
+
+.an_entry > button, .an_entry > input {
+    max-width: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Prototype stuff*/
+/*
+main {
+    text-align: center;
+}
+
+.a_list {
+    background-color: rgba(0, 0, 0, 0.432);
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.a_list > .list_controls {
+    display: flex;
+    flex-direction: row;
+}
+
+.a_list > .list_controls > * {
+    display: inline;
+    flex: 1;
+    margin-top: 2em;
+}
+
+.a_list > .list_controls > .list_title {
+    display: inline;
+    flex: 100%;
+    border: red 1px solid;
+}
+
+.a_list > .list_controls > button {
+    height: 2em;
+}
+
+.a_list > .list_controls > #delete_list {
+    margin-right: 10px;
+}
+
+.a_list > .an_entry {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    margin: 1em;
+}
+
+.a_list > .an_entry > .entry_check {
+    margin:  1em;
+    padding: 0px;
+}
+
+.a_list > .an_entry > .entry_title {
+    flex: 2;
+    text-align: left;
+    background-color: none;
+}
+*/

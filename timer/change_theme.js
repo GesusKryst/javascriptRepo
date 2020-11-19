@@ -1,29 +1,21 @@
 function init()
 {
-    
-    dark_theme();
-}
-var btn = document.getElementById("theme_btn");
-
-function light_theme()
-{
-    document.getElementById("theme").setAttribute("href", "timer.css");
-    return true;
-}
-
-
-function dark_theme()
-{
-    document.getElementById("theme").setAttribute("href", "timer_dark.css");
-    return false
+    var btn = document.getElementById("theme_btn");
+    btn.addEventListener("click", function()
+    {
+        let currentTheme = document.getElementById("theme");
+        if(btn.checked)
+        {
+            currentTheme .setAttribute("href", "timer_dark.css");
+        }
+        else
+        {
+            currentTheme .setAttribute("href", "timer_light.css");
+        }
+    })
 }
 
 
-function change_theme(eventObj)
-{
-    var obj = eventObj.target;
-    console.log(obj);
-}
 
 
-window.onload = init;
+window.onload = init();

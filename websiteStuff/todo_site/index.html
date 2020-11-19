@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>EZTools - To Do List</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/todo_style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>EZTools</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <main>
+        <!--#############-->
+        <div id="no_lists_message_container">
+            <p id="no_lists_message">No lists...</p>
+            <p id="no_lists_sub_message">(Create a new list!)</p>
+        </div>
+
+        <!--Demo Items-->
+        <section class="a_list">
+            <div class="list_controls">
+                <h3 class="list_title">Weekend To Do List</h3>
+                <button id="show/hide">👇</button>
+                <button id="delete_list">🗑️</button>
+            </div>
+
+            <div class="an_entry">
+                <input type="checkbox" class="entry_check" name="entry_check" />
+                <label for="entry_check" class="entry_title">Program</label>
+                <button id="edit_entry">✏️</button>
+                <button id="delete_entry">🗑️</button>
+            </div>
+
+            <button id="add_entry">➕ New Entry</button>
+        </section>
+
+
+        <section class="a_list">
+            <div class="list_controls">
+                <h3 class="list_title">Things to Buy</h3>
+                <button id="show/hide">👇</button>
+                <button id="delete_list">🗑️</button>
+            </div>
+
+            <div class="an_entry">
+                <input type="checkbox" class="entry_check" name="entry_check" />
+                <label for="entry_check" class="entry_title">Mudflaps</label>
+                <button id="edit_entry">✏️</button>
+                <button id="delete_entry">🗑️</button>
+            </div>
+
+            <div class="an_entry">
+                <input type="checkbox" class="entry_check" name="entry_check" />
+                <label for="entry_check" class="entry_title">Wheels</label>
+                <button id="edit_entry">✏️</button>
+                <button id="delete_entry">🗑️</button>
+            </div>
+
+            <div class="an_entry">
+                <input type="checkbox" class="entry_check" name="entry_check" />
+                <label for="entry_check" class="entry_title">Cinnamon Sticks</label>
+                <button id="edit_entry">✏️</button>
+                <button id="delete_entry">🗑️</button>
+            </div>
+
+            <button id="add_entry">➕ New Entry</button>
+        </section>
+
+
+        <section class="a_list">
+            <div class="list_controls">
+                <h3 class="list_title">New List 3</h3>
+                <button id="show/hide">👇</button>
+                <button id="delete_list">🗑️</button>
+            </div>
+
+            <p id="no_entries_message">No items...</p>
+
+            <button id="add_entry">➕ New Entry</button>
+        </section>
+            
+
+        <button id="create_list_button">➕</button>
+        <!--#############--> 
+        </main>
+
+        <footer></footer>
+    </body>
+
+
+</html>

@@ -3,13 +3,14 @@ body{
     color: white;
 }
 
-#timer_container{
-    border: red 1px solid;
-    text-align: center;
-    margin: 10%;
-    font-size: 3rem;
+button{
+    color: white;
+    background-color: black;
+    border-style: dotted;
+    border: 1px solid white;
 }
 
-#timer_lap_output{
-    font-size: 1rem;
+button:hover{
+    background-color: white;
+    color:black;
 }

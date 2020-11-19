@@ -72,4 +72,4 @@ function resetTimer()
 }
 
 
-window.onload = buttonSetup;
+window.onload = buttonSetup();

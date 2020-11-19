@@ -27,3 +27,8 @@ footer a{
     width: 100%;
     text-align: center;
 }
+
+main{
+    text-align: center;
+    margin: 1.2em
+}
